@@ -1,0 +1,50 @@
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 610px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-bottom: 50px;
+}
+
+.top-button {
+  /* border: 2px solid black; */
+  width: 200px;
+  border-radius: 8px;
+  background: #f1f6ff;
+  height: 40px;
+}
+
+.btn-text {
+  font-size: 10px;
+  font-weight: 700;
+
+  margin: "8px";
+  background-image: linear-gradient(249.46deg, #2878ff 1.31%, #2c65c8 100%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Hide the original text color */
+}
+
+.all-icons {
+  display: flex;
+  gap: 46px;
+}
+
+.feature-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.featuer-desc {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.feature-icon {
+  display: flex;
+  gap: 14px;
+}
