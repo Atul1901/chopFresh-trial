@@ -1,0 +1,43 @@
+.head-section {
+  display: flex;
+  height: 550px;
+  background: #eeeeee;
+  /* gap: 239px; */
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  padding-left: 53px;
+  padding-right: 150px;
+}
+
+.head-desc {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.head-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+.head-image {
+  width: 400px;
+  height: 400px;
+}
+
+.head-img {
+  width: 100%;
+  height: 100%;
+}
+
+.head-text {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 440px;
+}
+
+.red-text {
+  color: #c00000;
+}
