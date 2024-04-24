@@ -33,6 +33,7 @@ export default function Cards({
   calories,
   wakht,
   price,
+  color,
 }: any) {
   // const [expanded, setExpanded] = React.useState(false);
 
@@ -44,7 +45,7 @@ export default function Cards({
     <Card
       sx={{
         maxWidth: 345,
-        background: "#FFEBEB",
+        background: `${color}`,
         borderRadius: "20px",
         display: "flex",
         flexDirection: "column",

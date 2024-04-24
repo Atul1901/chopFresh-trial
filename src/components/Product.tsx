@@ -17,6 +17,36 @@ import leafBottomRight from "../utils/photos/leaf-bottomright.png";
 import leafBottomLeft from "../utils/photos/leaf-bototmleft.svg";
 
 export const Product = () => {
+  const cardData = [
+    {
+      image: standBurger,
+      title: "Stand Burger",
+      price: "25.00",
+      tara: "2.6",
+      calories: "65 calories",
+      wakht: "20-30 min",
+      color: "#FFEBEB",
+    },
+    {
+      image: mangoCake,
+      title: "Mango Cake",
+      price: "29.00",
+      tara: "4.1",
+      calories: "120 calories",
+      wakht: "45-55 min",
+      color: "#DEFFFF",
+    },
+    {
+      image: mangoCake2,
+      title: "Mango Cake",
+      price: "32.64",
+      tara: "3.6",
+      calories: "65 calories",
+      wakht: "15-30 min",
+      color: "#FFF0DF",
+    },
+  ];
+
   return (
     <>
       <div className="product-container">
@@ -31,30 +61,20 @@ export const Product = () => {
           </div>
         </div>
         <div className="all-cards">
-          <Cards
-            image={standBurger}
-            title={"Stand Burger"}
-            price={"25.00"}
-            tara={"2.6"}
-            calories={"65 calories"}
-            wakht={"20-30 min"}
-          />
-          <Cards
-            image={mangoCake}
-            title={"Mango Cake"}
-            price={"29.00"}
-            tara={"4.1"}
-            calories={"120 calories"}
-            wakht={"45-55 min"}
-          />
-          <Cards
-            image={mangoCake2}
-            title={"Mango Cake"}
-            price={"32.64"}
-            tara={"3.6"}
-            calories={"65 calories"}
-            wakht={"15-30 min"}
-          />
+          {cardData.map((card, index) => {
+            return (
+              <Cards
+                key={index}
+                image={card.image}
+                title={card.title}
+                price={card.price}
+                tara={card.tara}
+                calories={card.calories}
+                wakht={card.wakht}
+                color={card.color}
+              />
+            );
+          })}
         </div>
         <div className="background-img card-background">
           <img src={cardsbackground} alt="a background for decoration"></img>
