@@ -1,5 +1,35 @@
 .footer-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   background: #001333;
   color: white;
+  gap: 20px;
+  justify-content: space-around;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.footer-head {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  height: 100px;
+  gap: 10px;
+}
+
+.footer-content-head {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact-container {
+  width: 200px;
+}
+
+.fooer-content {
+  font-size: 14px;
+  font-weight: 400;
 }
