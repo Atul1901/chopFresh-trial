@@ -1,9 +1,9 @@
 import React from "react";
-import "./OurCustomer.css";
+// import "./OurCustomer.css";
 import profilePicture from "../utils/photos/profilepicture.svg";
 
 const CustomerCard = () => {
-  const stars = <ion-icon name="star"></ion-icon>;
+  const stars = <ion-icon name="star" style={{ color: "#ffc700" }}></ion-icon>;
   return (
     <>
       <div className="customer-information">
