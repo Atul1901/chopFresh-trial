@@ -1,7 +1,6 @@
 import React from "react";
 import aboutInfo from "../utils/photos/aboutInfo.svg";
 import "./AboutInfo.css";
-import callOutline from "../utils/photos/call-outline.svg";
 
 const AboutInfo = () => {
   return (
