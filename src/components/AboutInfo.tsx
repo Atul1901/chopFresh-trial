@@ -1,6 +1,7 @@
 import React from "react";
 import aboutInfo from "../utils/photos/aboutInfo.svg";
 import "./AboutInfo.css";
+import callOutline from "../utils/photos/call-outline.svg";
 
 const AboutInfo = () => {
   return (
@@ -14,11 +15,25 @@ const AboutInfo = () => {
           />
           <div className="address">
             <p className="addr-head">Come and visit us</p>
-            <p className="addr">(414) 857 - 0107</p>
-            <p className="addr">happytummy@restaurant.com</p>
-            <p className="addr">
-              837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles
-            </p>
+            <div className="about-info-values">
+              {/* <img
+                src={callOutline}
+                alt="the icon shows call"
+                className="icons"
+              /> */}
+              <ion-icon name="call-outline"></ion-icon>
+              <p className="addr">(414) 857 - 0107</p>
+            </div>
+            <div className="about-info-values">
+              <ion-icon name="mail-outline"></ion-icon>
+              <p className="addr">happytummy@restaurant.com</p>
+            </div>
+            <div className="about-info-values">
+              <ion-icon name="location-outline"></ion-icon>
+              <p className="addr">
+                837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles
+              </p>
+            </div>
           </div>
         </div>
 
