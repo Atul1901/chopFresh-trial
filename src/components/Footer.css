@@ -33,3 +33,10 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+.footer-logos {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

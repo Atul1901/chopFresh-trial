@@ -35,9 +35,18 @@ const Footer = () => {
             <p>Social Media</p>
           </div>
           <div className="fooer-content">
-            <p>Instagram</p>
-            <p>Facebook</p>
-            <p>Youtube</p>
+            <div className="footer-logos">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <p>Instagram</p>
+            </div>
+            <div className="footer-logos">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <p>Facebook</p>
+            </div>
+            <div className="footer-logos">
+              <ion-icon name="logo-youtube"></ion-icon>
+              <p>Youtube</p>
+            </div>
           </div>
         </div>
         <div className="contact-container">
