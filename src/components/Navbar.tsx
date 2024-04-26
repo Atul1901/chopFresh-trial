@@ -6,7 +6,11 @@ const Navbar = () => {
     <>
       <div className="company">
         <div className="company-logoname">
-          <img src={chopFreshLogo} alt="logo of Chop Fresh"></img>
+          <img
+            src={chopFreshLogo}
+            alt="logo of Chop Fresh"
+            className="navbar-logo"
+          ></img>
           <p>Chop Fresh</p>
         </div>
         <div className="navbar-menu">
