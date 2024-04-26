@@ -1,0 +1,73 @@
+.about-info-container {
+  margin-top: 30px;
+  display: flex;
+  margin: 100px;
+  gap: 100px;
+}
+
+.about-picture {
+  width: 50%;
+  /* height: 50%; */
+}
+
+.about-info-desc {
+  /* display: flex;
+  flex-direction: column;
+  gap: 20px; */
+  width: 391px;
+}
+
+.about-info-title {
+  font-weight: 500;
+  font-size: 44px;
+  font-family: "David Libre", serif;
+  /* margin: 0; */
+}
+
+.about-info-para1 {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: DM Sans;
+}
+
+.about-info-para2 {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: DM Sans;
+  color: #414536;
+}
+
+.about-info-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 118px;
+  border: 1.5px solid;
+  background: none;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+}
+
+.address {
+  /* position: relative; */
+  transform: translate(84%, -84%);
+  width: 225px;
+  border: 1px solid #474747;
+  background: #474747;
+  color: white;
+  padding-left: 50px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+.addr-head {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.addr {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
