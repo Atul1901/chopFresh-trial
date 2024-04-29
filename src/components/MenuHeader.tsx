@@ -61,7 +61,7 @@ const MenuHeader = () => {
     },
   ];
   return (
-    <>
+    <div style={{ paddingBottom: "100px" }}>
       <div
         style={{
           display: "flex",
@@ -98,56 +98,8 @@ const MenuHeader = () => {
             />
           );
         })}
-        {/* <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        /> */}
-        {/* <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        />
-        <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        />
-        <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        />
-        <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        />
-        <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        />
-        <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        />
-        <MenuCards
-          image={menuFriedEgg}
-          price={"9.99"}
-          title={"Fried eggs"}
-          desc={"Made with eggs, lettuce, salt, oil and other ingredients."}
-        /> */}
       </div>
-    </>
+    </div>
   );
 };
 

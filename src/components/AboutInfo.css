@@ -51,14 +51,16 @@
 
 .address {
   /* position: relative; */
-  transform: translate(34%, -84%);
-  width: 360px;
+  transform: translate(30%, -88%);
+  width: 351px;
   border: 1px solid #474747;
   background: #474747;
   color: white;
   padding-left: 50px;
-  /* padding-right: 15px; */
+  padding-right: 36px;
   border-radius: 10px;
+  padding-top: 18px;
+  padding-bottom: 20px;
 }
 
 .addr-head {
