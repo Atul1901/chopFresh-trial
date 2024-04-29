@@ -1,0 +1,48 @@
+.menu-head {
+  text-align: center;
+  width: 743px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu-head-section {
+  width: 543px;
+}
+
+.Menu-title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 0;
+  color: #2c2f24;
+}
+
+.menu-text {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #495460;
+}
+
+.menu-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btns {
+  width: 130px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #dbdfd0;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "DM Sans";
+  background: none;
+}
+
+.btns:hover {
+  background-color: #ad343e;
+  color: white;
+}
