@@ -15,17 +15,6 @@ interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
 }
 
-// const ExpandMore = styled((props: ExpandMoreProps) => {
-//   const { expand, ...other } = props;
-//   return <IconButton {...other} />;
-// })(({ theme, expand }) => ({
-//   transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
-//   marginLeft: "auto",
-//   transition: theme.transitions.create("transform", {
-//     duration: theme.transitions.duration.shortest,
-//   }),
-// }));
-
 export default function Cards({
   image,
   title,
@@ -35,12 +24,6 @@ export default function Cards({
   price,
   color,
 }: any) {
-  // const [expanded, setExpanded] = React.useState(false);
-
-  // const handleExpandClick = () => {
-  //   setExpanded(!expanded);
-  // };
-
   return (
     <Card
       sx={{
@@ -53,20 +36,6 @@ export default function Cards({
         paddingBottom: 2,
       }}
     >
-      {/* <CardHeader
-        avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
-      /> */}
       <CardMedia component="img" height="194" image={image} alt="Paella dish" />
       <CardContent
         sx={{ display: "flex", flexDirection: "column", gap: "25px" }}
@@ -116,12 +85,6 @@ export default function Cards({
         </Typography>
       </CardContent>
       <CardActions style={{ display: "flex", justifyContent: "center" }}>
-        {/* <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
         <button className="card-button">Buy Now</button>
       </CardActions>
     </Card>

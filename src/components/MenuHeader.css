@@ -46,3 +46,12 @@
   background-color: #ad343e;
   color: white;
 }
+
+.menu-cards {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
